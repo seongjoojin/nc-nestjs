@@ -35,3 +35,19 @@ NestJS는 데코레이터랑 함께 함
 - 컨트롤러는 url를 가져오는 역할과 함수를 실행
 - 나머지 비즈니스 로직은 서비스로 감
 - 서비스는 일반적으로 실제 function을 가지는 부분
+
+## 2 REST API
+
+### 2.0 Movies Controller
+
+```bash
+nest g co
+```
+
+parameter의 decorator를 사용하면
+NestJS가 url이 있는 id parameter를 원하는 걸 앎
+
+일부 사람들은 put을 이용하지 않아도 된다고 함
+put은 모든 리소스를 업데이트 하기 때문임
+
+patch는 리소스의 일부분만 업데이트 해줌
