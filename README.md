@@ -107,3 +107,20 @@ Nest에서는 dependency injection이라 부르는 것이 있음.
 
 https://docs.nestjs.com/providers
 https://medium.com/teamzerolabs/introduction-to-nestjs-dependency-injections-in-typescript-94e1154f40c
+
+### 2.7 Express on NestJS
+
+NestJS는 Express 위에서 돌아감
+
+컨트롤러에서 Request, Response 객체가 필요하면 사용할 수 있음
+
+https://docs.nestjs.com/controllers#request-object
+
+req나 res 같은 Express객체를 직접적으로 사용하는게 좋은 방법은 아님
+왜냐하면 NestJS는 두 개의 프레임워크랑 작동하기 때문임
+
+기본적으로 Express 위에서 실행되는데 이걸 Fastify 라는 걸로 전환시킬 수 있음
+https://www.fastify.io/
+https://docs.nestjs.com/techniques/performance#performance-fastify
+
+중요한 건 NestJS가 두 프레임워크 위에서 동시에 돌아간다는 것임
