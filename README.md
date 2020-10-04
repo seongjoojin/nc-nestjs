@@ -86,3 +86,24 @@ $ npm i @nestjs/mapped-types
 ```
 
 mapped-types은 타입을 변환시키고 사용할 수 있게 하는 패키지임
+
+### 2.6 Modules and Dependency Injection
+
+app.module은 AppController랑 AppProvider만 가지고 있어야함.
+
+movie.module에 MoviesController, MoviesService에 옮김
+
+NestJS에서 앱은 여러 개의 모듈로 구성되게됨
+
+```bash
+$ nest g mo
+```
+
+```bash
+$ nest g co
+```
+
+Nest에서는 dependency injection이라 부르는 것이 있음.
+
+https://docs.nestjs.com/providers
+https://medium.com/teamzerolabs/introduction-to-nestjs-dependency-injections-in-typescript-94e1154f40c
