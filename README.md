@@ -78,3 +78,11 @@ $ npm i class-validator class-transformer
 ```
 
 https://docs.nestjs.com/pipes#global-scoped-pipes
+
+### 2.5 DTOs and Validation part Two
+
+```bash
+$ npm i @nestjs/mapped-types
+```
+
+mapped-types은 타입을 변환시키고 사용할 수 있게 하는 패키지임
