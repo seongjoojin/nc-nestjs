@@ -41,7 +41,7 @@ NestJS는 데코레이터랑 함께 함
 ### 2.0 Movies Controller
 
 ```bash
-nest g co
+$ nest g co
 ```
 
 parameter의 decorator를 사용하면
@@ -51,3 +51,15 @@ NestJS가 url이 있는 id parameter를 원하는 걸 앎
 put은 모든 리소스를 업데이트 하기 때문임
 
 patch는 리소스의 일부분만 업데이트 해줌
+
+### 2.2 Movies Service part One
+
+https://en.wikipedia.org/wiki/Single-responsibility_principle
+
+하나의 module, class 혹은 function이 하나의 기능은 꼭 책임져야한다는 것.
+
+서비스는 로직을 관리하는 역할을 가지게 될 것
+
+```bash
+$ nest g s
+```
