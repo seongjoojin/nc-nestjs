@@ -63,3 +63,18 @@ https://en.wikipedia.org/wiki/Single-responsibility_principle
 ```bash
 $ nest g s
 ```
+
+### 2.4 DTOs and Validation part One
+
+DTO는 데이터 전송 객체(Data Transfer Object)를 뜻함.
+
+DTO쓰는 한가지 이유는 프로그래머로서 코드를 더 간결하게 만들 수 있도록 해줌
+NestJS가 들어오는 쿼리에 대해 유효성을 검사할 수 있게 해줌
+
+일반적으로 파이프는 미들웨어같은 거라고 생각할 수 있음
+
+```bash
+$ npm i class-validator class-transformer
+```
+
+https://docs.nestjs.com/pipes#global-scoped-pipes
