@@ -124,3 +124,23 @@ https://www.fastify.io/
 https://docs.nestjs.com/techniques/performance#performance-fastify
 
 중요한 건 NestJS가 두 프레임워크 위에서 동시에 돌아간다는 것임
+
+## 3 UNIT TESTING
+
+### 3.0 Introduction to Testing in Nest
+
+jset는 자바스크립트를 아주 쉽게 테스팅하는 npm패키지임
+
+.spec.ts는 테스트를 포함한 파일임
+
+nestjs에서는 jest가 .spec.ts 파일들을 찾아볼 수 있도록 설정되어 있음.
+
+유닛(단위) 테스팅 : 모든 function을 따로 테스트 하는 것임.
+
+두 가지의 테스팅 종류
+
+- 유닛 테스팅 : 서비스에서 분리된 유닛을 테스트
+- end-to-end(e2e) 테스트 : 모든 시스템을 테스팅
+
+유닛 테스팅 => function 하나 하나를 따로 테스팅하는 유닛 테스팅
+e2e테스팅 => 이 페이지를 가면 특정 페이지가 나와야하는 경우 사용, 사용자가 취할만한 액션들을 처음부터 끝까지 테스트
